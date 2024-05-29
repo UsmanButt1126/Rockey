@@ -1,0 +1,103 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashionista - Home</title>
+    <link rel="stylesheet" href="C:\Users\Hanzla\source\repos\Rockey\Rockey\wwwroot\css\site.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="https://via.placeholder.com/150x50?text=Fashionista" alt="Fashionista Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Login/Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Body -->
+    <main>
+        <!-- Women Section -->
+        <section id="women">
+            <h2>Women's Collection</h2>
+            <div class="product">
+                <img src="w4.jpg" alt="Women's Product 1">
+                <p>Elegant Dress</p>
+            </div>
+            <div class="product">
+                <img src="w3.jpg" alt="Women's Product 2">
+                <p>Casual Top</p>
+            </div>
+            <div class="product">
+                <img src="w5.jpg" alt="Women's Product 3">
+                <p>Long Coat</p>
+            </div>
+            <button class="more-btn" onclick="showMore('women')">More</button>
+        </section>
+
+        <!-- Men Section -->
+        <section id="men">
+            <h2>Men's Collection</h2>
+            <div class="product">
+                <img src="m6.jpg" alt="Men's Product 1">
+                <p>Mens Hoodie</p>
+            </div>
+            <div class="product">
+                <img src="m4.jpg" alt="Men's Product 2">
+                <p>Casual T-Shirt</p>
+            </div>
+            <div class="product">
+                <img src="m3.jpg" alt="Men's Product 3">
+                <p>Denim Jeans</p>
+            </div>
+            <button class="more-btn" onclick="showMore('men')">More</button>
+        </section>
+
+        <!-- Children Section -->
+        <section id="children">
+            <h2>Children's Collection</h2>
+            <div class="product">
+                <img src="c4.jpg" alt="Children's Product 1">
+                <p>Kids T-Shirt</p>
+            </div>
+            <div class="product">
+                <img src="c3.jpg" alt="Children's Product 2">
+                <p>Summer Dress</p>
+            </div>
+            <div class="product">
+                <img src="c1.jpg" alt="Children's Product 3">
+
+                <p>Winter Coat</p>
+            </div>
+            <button class="more-btn" onclick="showMore('children')">More</button>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Fashionista. All rights reserved.</p>
+        <p>
+            Follow us on:
+            <a href="#">Facebook</a> |
+            <a href="#">Instagram</a> |
+            <a href="#">Twitter</a>
+        </p>
+    </footer>
+
+    <script src="Rockey.js"></script>
+</body>
+</html>
